@@ -1,5 +1,5 @@
-## Fresh Spotify Playlist
-Keep a spotify playlist fresh by setting a limit on the number of days a song will stay on the playlist and archive expired songs in a separate list.
+## Spotify Playlist with Expiring Tracks
+Keep a spotify playlist fresh by setting a limit on the number of days a song will stay on the playlist and archive expired songs in a separate list. 
 
 ### Getting Started
 1. run `npm install`
