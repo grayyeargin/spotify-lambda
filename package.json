@@ -4,7 +4,7 @@
   "description": "access spotify api with lamda function",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dotenv": "touch .env && echo 'ARCHIVED_PL=' >> .env && echo 'CLIENT_ID=' >> .env && echo 'CLIENT_SECRET=' >> .env && echo 'CURRENT_PL=' >> .env && echo 'REFRESH_TOKEN=' >> .env && echo 'DAYS_TO_EXPIRE=' >> .env"
   },
   "keywords": [
     "lamda",
@@ -12,6 +12,7 @@
     "aws"
   ],
   "dependencies": {
+    "dotenv": "^6.1.0",
     "request": "^2.88.0"
   },
   "author": "Gray Yeargin",
